@@ -16,3 +16,5 @@ app.post("/add",(req,res)=>{
 
     // no app.listen here because it will test will import this and it will start running the file that's why we seperate out in bin.ts
 })
+
+// we are exporting the listen app
