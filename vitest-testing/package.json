@@ -2,17 +2,21 @@
   "name": "vitest-testing",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+   
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^6.15.0",
     "@types/express": "^5.0.3",
+    "@types/supertest": "^6.0.3",
     "express": "^5.1.0",
+    "prisma": "^6.15.0",
+    "supertest": "^7.1.4",
     "zod": "^4.1.3"
   },
   "devDependencies": {
