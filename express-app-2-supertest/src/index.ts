@@ -8,10 +8,12 @@ app.get("/", async (req, res) => {
     res.send("hello world")
 })
 
-app.post("/add",(req,res)=>{
+app.post("/sum",(req,res)=>{
     const { a, b } = req.body;
     const result = a + b;
-    res.json({ result });
+    
+    
+      res.json({ result });
 
 
     // no app.listen here because it will test will import this and it will start running the file that's why we seperate out in bin.ts
